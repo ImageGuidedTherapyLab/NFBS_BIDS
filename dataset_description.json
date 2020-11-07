@@ -1,0 +1,6 @@
+{
+  "Name": "organize NFBS as BIDS", 
+  "BIDSVersion": "1.0.2",
+  "License": "???",
+  "Authors": ["NFBS"] 
+}
