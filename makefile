@@ -4,7 +4,7 @@ UIDLIST = A00028185 A00028352 A00032875 A00033747 A00034854 A00035072 A00035827 
 
 mriqc:
 	mkdir -p derivatives/mriqc
-	docker run -it --rm -v /data/home2/fuentes/NFBS_BIDS:/data:ro -v /data/home2/fuentes/NFBS_BIDS/derivatives/mriqc:/out poldracklab/mriqc:latest /data /out participant --participant_label A00028185  --no-sub
+	docker run -it --rm -v /data/home2/fuentes/NFBS_BIDS:/data:ro -v /data/home2/fuentes/NFBS_BIDS/derivatives/mriqc:/out poldracklab/mriqc:latest /data /out participant --participant_label $(UIDLIST)  --no-sub
 
 
 
