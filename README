@@ -1,4 +1,11 @@
+MRQy Usage
+=====
 
+ python /rsrch1/ip/dtfuentes/github/MRQy/src/mrqy/QC.py mrqyiqm rawdata
+
+
+MRIQC Usage
+=====
 NFBS data organized as BIDS and processed with MRIQC
 
 
